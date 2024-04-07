@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+
+/* HEADER */
+
+header {
+
+    display:flex;
+    padding: 15px;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    }
+
+
+
+
+    header  img {
+    max-width: 60px;
+    max-height: 60px;
+        padding: 20px;
+    width: 80px;
+    height: 8 0px;
+    
+    }
+    
+    header ul {
+    align-items: center;
+
+    }
+    header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    
+
+
+    
+    }
+    
+    .nav-list {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 100%; 
+    height: 100%;/* Es muy importante darle un ancho del 100% para que ocupe todo el ancho disponible, si no no se va a centrar. */
+    
+    list-style: none; /* Para quitarle los puntitos a las listas */
+    font-size: 30px;
+   
+    }
+
+    .nav-list .pedido {
+border: solid pink;
+padding: 10px;
+line-height: 40px;
+border-radius: 5px;
+
+
+
+    }
+    
+    a { /* Los a son enlaces */
+    color: #43BAC6;
+    font-weight: 600; /* Esto es la anchura o el peso de la fuente*/
+    text-decoration: none; /* Para quitarle el subrayado */
+    }
+    
+    /* ¿Cómo puedo hacer que al principio el icono del Menu (3 lineas negras horizobtales) no aparezca? */
+    
+
+
+    .menu {
+        display: none;
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    @media (max-width: 500px) { /* Para indicarle que todo lo que esté por debajo de 500px funcione con el siguiente código:*/
+        header > nav { /* De mi barra de navegación*/
+            display: none; /* Quiero ocultar cosas. Es decir mi barra de navegación dejará de existir cuando mi pantalla
+        tenga menos de 500px*/
+        }
+    
+        .menu {
+            display: block;
+    
+        }
+    }
+    
+    /* Sin embargo, si quiero que el menu aparezca por debajo de los 500px: */
+    
+    
+ /*   HERO */
+
+#hero {
+display: flex;
+align-items: center;
+box-sizing: border-box;
+width: 100%;
+
+}
+
+
+
+ main {
+    
+   background-color: #edc3c7;
+    display:flex; /* Para que ponga una cosa a la izquierda y otra a la derecha
+    */
+  
+    align-items: center;
+    /* min-height: 100svh ; */ /* Con esto podemos ver unicamente el hero en nuestra pagina que es en lo que nos estamos centrando */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+ main h1 {
+    padding: 30px;
+color: #43BAC6;
+font-size: 40px;
+
+text-transform: uppercase;
+justify-content: center;
+padding: 10%;
+
+}
+
+main .info > h1 > span {
+    color: #cc6982;
+   
+
+
+}
+
+main .button {
+text-align: center;
+padding: 30px;
+
+
+
+}
+
+ #hero > img {
+    
+    width: 30%;
+    max-width: 1000px;
+    min-width: 1000px;
+  padding-left: 15%;
+   
+
+
+}
+
+
+/* PRESENTACION */
+
+#presentacion {
+background-color: white;
+width: 100%;
+height: 500px;
+
+
+}
+
+.texto {
+position: absolute;
+
+}
+
+#presentacion img {
+width: 100%;
+
+}
+
+
+/* PRODUCTOS */
+
+#PRODUCTOS {
+background-color: white;
+width: 100%;
+padding-bottom: 40px;
+
+}
+
+ 
+/* ESTILOS SABOR 1 ALMENDRA FRAMBUESA */
+
+
+.descripcion-sabor1 {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 50px;
+
+
+}
+
+.descripcion-sabor1 p {
+
+text-align: center;
+flex: 1; /* Hace que el parrafo ocupe el espacio disponible
+ */
+ color: #cc5666;
+ font-size: 35px;
+ font-family: Lilita One, serif;
+ text-transform: uppercase;
+}
+
+
+.img-sabor1izquierda {
+padding-left: 20%;
+
+}
+
+
+.img-sabor1derecha {
+
+padding-right: 20%;
+}
+
+
+/* ESTILOS SABOR 2 MENTA CHOCOLATE BLANCO */
+
+.descripcion-sabor2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    
+    }
+    
+    .descripcion-sabor2 p {
+    
+    text-align: center;
+    flex: 1; /* Hace que el parrafo ocupe el espacio disponible
+     */
+     color: #80eba0;
+     font-size: 35px;
+     font-family: Lilita One, serif;
+     text-transform: uppercase;
+    }
+    
+    
+    .img-sabor2izquierda {
+    padding-left: 20%;
+    
+    }
+    
+    
+    .img-sabor2derecha {
+    
+    padding-right: 20%;
+    }
+
+
+/* ESTILOS SABOR 3 CHEESECAKE */
+
+    .descripcion-sabor3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        
+        }
+        
+        .descripcion-sabor3 p {
+        
+        text-align: center;
+        flex: 1; /* Hace que el parrafo ocupe el espacio disponible
+         */
+         color: #d662b9;
+         font-size: 35px;
+         font-family: Lilita One, serif;
+         text-transform: uppercase;
+        }
+        
+        
+        .img-sabor3izquierda {
+        padding-left: 20%;
+        
+        }
+        
+        
+        .img-sabor3derecha {
+        
+        padding-right: 20%;
+        }
+
+        /* ESTILOS SABOR 4 LAVANDA Y MIEL */
+
+    .descripcion-sabor4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        
+        }
+        
+        .descripcion-sabor4 p {
+        
+        text-align: center;
+        flex: 1; /* Hace que el parrafo ocupe el espacio disponible
+         */
+         color: #dbc254;
+         font-size: 35px;
+         font-family: Lilita One, serif;
+         text-transform: uppercase;
+        }
+        
+        
+        .img-sabor4izquierda {
+        padding-left: 20%;
+        
+        }
+        
+        
+        .img-sabor4derecha {
+        
+        padding-right: 20%;
+        }
+    
+    /* ESTILOS SABOR 5 PIÑA */
+
+    .descripcion-sabor5 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        
+        }
+        
+        .descripcion-sabor5 p {
+        
+        text-align: center;
+        flex: 1; /* Hace que el parrafo ocupe el espacio disponible
+         */
+         color: #cfd150;
+         font-size: 35px;
+         font-family: Lilita One, serif;
+         text-transform: uppercase;
+       
+        }
+        
+        
+        .img-sabor5izquierda {
+        padding-left: 20%;
+        
+        
+        }
+        
+        
+        .img-sabor5derecha {
+        
+        padding-right: 20%;
+        }
+    
+
+
+
+
+ 
+        footer {
+            
+           position: relative;
+            bottom: 0; /* En la parte de abajo de la pagina */
+            left: 0;
+            width: 100%;
+            display: flex;
+            padding: 50px;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+            background-color:  #edc3c7;
+          
+            
+        }
+        
+
+
+
+
+
+
+       footer ul {
+            list-style: none;
+            width: 250px;
+            color: #43BAC6;
+            font-size: 20px;
+            font-weight: 800;
+            
+          
+          
+          
+        }
+        
+       
+
+   
+
+
+
