@@ -94,7 +94,179 @@ border-radius: 5px;
             display: block;
     
         }
-    }
+
+        #hero {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            width: 100%;
+
+     }
+
+
+
+     .hero_img {
+width: 100%;
+
+     }
+
+     .descripcion-sabor1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        
+        
+        .img-sabor1izquierda {
+            padding-left: 0%;
+            
+            }
+            
+            
+            .img-sabor1derecha {
+            
+            padding-left: 17%;
+            }
+        
+        }
+        
+        .descripcion-sabor2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            
+            }   
+
+            .img-sabor2izquierda {
+                padding-right: 50%;
+                
+                }
+                
+                
+                .img-sabor2derecha {
+                
+                padding-left: 17%;
+                }
+
+            .descripcion-sabor3 {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 50px;
+                flex-wrap: wrap;
+                
+                }
+
+                .img-sabor3izquierda {
+                    padding-right: 50%;
+                    
+                    }
+                    
+                    
+                    .img-sabor3derecha {
+                    
+                    padding-left: 16%;
+                    }
+
+
+                .descripcion-sabor4 {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin-top: 50px;
+                    flex-wrap: wrap;
+                    
+                    }
+
+                    .img-sabor4izquierda {
+                        padding-right: 50%;
+                        
+                        }
+                        
+                        
+                        .img-sabor4derecha {
+                        
+                        padding-left: 15%;
+                        }
+
+
+                    .descripcion-sabor5 {
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: center;
+                        margin-top: 50px;
+                        flex-wrap: wrap;
+                        
+                        }
+
+                        .descripcion-sabor5 p {
+                            display: flex;
+                            padding-right: 30%;
+                            padding-left: 35%;
+                            text-align: center;
+                            flex-wrap: wrap;
+                             color: #cfd150;
+                             font-size: 35px;
+                             font-family: Lilita One, serif;
+                             text-transform: uppercase;
+                           
+                            }
+
+                            .img-sabor5izquierda {
+                                padding-right: 50%;
+                                
+                                
+                                }
+                                
+                                
+                                .img-sabor5derecha {
+                                
+                                padding-left: 13%;
+                                }
+
+                                footer {
+            
+                                    position: relative;
+                                     bottom: 0; /* En la parte de abajo de la pagina */
+                                     left: 0;
+                                     width: 100%;
+                                     display: flex;
+                                     padding: 50px;
+                                     
+                                     gap: 30px;
+                                     flex-wrap: wrap;
+                                     background-color:  #edc3c7;
+                                     justify-content: center;
+                                   
+                                     
+                                 }
+                                 
+                         
+                         
+                         
+                         
+                         
+                         
+                                footer ul {
+                                     list-style: none;
+                                     width: 250px;
+                                     color: #43BAC6;
+                                     font-size: 20px;
+                                     font-weight: 800;
+                                     
+                                   
+                                   
+                                   
+                                 }
+
+}
+
+    
     
     /* Sin embargo, si quiero que el menu aparezca por debajo de los 500px: */
     
