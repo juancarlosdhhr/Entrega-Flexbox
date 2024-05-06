@@ -3,6 +3,14 @@
 
 /* HEADER */
 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
 header {
 
     display:flex;
@@ -22,10 +30,10 @@ padding-top: 50px;
 }
 
     header  img {
-    max-width: 60px;
-    max-height: 60px;
+    width: 100px;
+    height: 100px;
         padding: 20px;
-    width: 80px;
+    
     height: 8 0px;
     
     }
@@ -84,7 +92,7 @@ border-radius: 5px;
         
     }
     
-    @media (max-width: 500px) { /* Para indicarle que todo lo que esté por debajo de 500px funcione con el siguiente código:*/
+    @media (max-width: 900px) { /* Para indicarle que todo lo que esté por debajo de 500px funcione con el siguiente código:*/
         header > nav { /* De mi barra de navegación*/
             display: none; /* Quiero ocultar cosas. Es decir mi barra de navegación dejará de existir cuando mi pantalla
         tenga menos de 500px*/
@@ -94,6 +102,11 @@ border-radius: 5px;
             display: block;
     
         }
+
+        
+
+          
+            
     }
     
     /* Sin embargo, si quiero que el menu aparezca por debajo de los 500px: */
@@ -121,6 +134,8 @@ width: 100%;
     /* min-height: 100svh ; */ /* Con esto podemos ver unicamente el hero en nuestra pagina que es en lo que nos estamos centrando */
     justify-content: space-around;
     flex-wrap: wrap;
+
+
     
 }
 
@@ -142,9 +157,7 @@ main .info > h1 > span {
 
 }
 
-main .button {
-text-align: center;
-padding: 30px;
+
 
 
 
@@ -190,6 +203,8 @@ background-color: white;
 width: 100%;
 padding-bottom: 40px;
 
+
+
 }
 
  
@@ -201,6 +216,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 margin-top: 50px;
+
 
 
 }
@@ -226,6 +242,8 @@ padding-left: 18%;
 .img-sabor1derecha {
 
 padding-right: 20%;
+
+
 }
 
 
